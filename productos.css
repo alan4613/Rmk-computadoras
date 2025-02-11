@@ -1,0 +1,105 @@
+*{
+  font-family: "Pirateone";
+  src: url(/Imagenes/PirataOne-Regular.ttf);
+}
+@font-face {
+  font-family: Pirateone;
+  src: url(/Imagenes/PirataOne-Regular.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+.frutas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.fruta {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.fruta img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.fruta h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.fruta p {
+    padding: 0 10px 10px;
+    color: #555;
+    font-size: 0.9em;
+}
+    /* Estilo del menú */
+    .menu {
+      background-color: #2e5c9a;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 22px;
+    }
+
+    .menu li {
+      position: relative;
+    }
+
+    .menu > li {
+      padding: 15px 20px;
+      cursor: pointer;
+    }
+
+    .menu > li:hover {
+      background-color: #f78a1d;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Submenú */
+    .submenu {
+      background-color: #123057;
+      display: none;
+      flex-direction: column;
+      list-style: none;
+      margin: 1;
+      padding: 0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 150px;
+    }
+
+    .submenu li {
+      padding: 10px;
+    }
+
+    .submenu li:hover {
+      background-color: #1e3e6b;
+    }
+
+    .menu li:hover .submenu {
+      display: flex;
+    }

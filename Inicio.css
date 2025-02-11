@@ -1,0 +1,94 @@
+*{
+  font-family: "Pirateone";
+  src: url(/Imagenes/PirataOne-Regular.ttf);
+}
+@font-face {
+  font-family: Pirateone;
+  src: url(/Imagenes/PirataOne-Regular.ttf);
+}
+#letra3 {
+  font-family: "PirateOne", sans-serif;
+  font-size: 1em;
+  color: #773a3a;
+  text-align: center;
+  text-shadow: 
+      -1px -1px 0 white, 
+      1px -1px 0 white, 
+      -1px 1px 0 white, 
+      1px 1px 0 white; 
+  }
+.banner {
+  color: rgb(134, 24, 24);
+  background: linear-gradient(to bottom, #0211528e, #03d426);
+  text-align: center;
+  padding: 20px;
+}
+.banner h1 {
+  font-size: 3em;
+  color: #99ff99;
+  margin: 0;
+}
+
+.banner h2 {
+  font-size: 2em;
+  color: #485af8;
+  margin: 5px 0;
+}
+@font-face {
+font-family: "Pirateone";
+src: url(/Imagenes/PirataOne-Regular.ttf);
+}
+#letra {
+font-family: "PirateOne", sans-serif;
+font-size: 3em;
+color: #2c572c; /* Color del texto */
+text-align: center;
+text-shadow: 
+    -1px -1px 0 white, 
+    1px -1px 0 white, 
+    -1px 1px 0 white, 
+    1px 1px 0 white; /* Efecto de borde */
+}
+#letra2 {
+font-family: "PirateOne", sans-serif;
+font-size: 2em;
+color: #567096; /* Color del texto */
+text-align: center;
+text-shadow: 
+    -1px -1px 0 white, 
+    1px -1px 0 white, 
+    -1px 1px 0 white, 
+    1px 1px 0 white; /* Efecto de borde */
+}
+
+
+.menu {
+  background-color: #2e5c9a;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 34px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu > li {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.menu > li:hover {
+  background-color: #f78a1d;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.img{
+  position: relative;
+}
